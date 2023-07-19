@@ -30,7 +30,9 @@ export const FooterImpl: React.FC = () => {
   )
 
   React.useEffect(() => {
-    toggleDarkMode()
+    if(!isDarkMode){
+      toggleDarkMode()
+    }
     setHasMounted(true)
   }, [])
 
