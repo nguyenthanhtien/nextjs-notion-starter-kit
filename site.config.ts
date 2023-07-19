@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Tien Blog - Helping You Become a Better .NET Engineer',
+  name: '.NET Engineer Space - Helping You Become a Better .NET Engineer',
   domain: 'tiendev.space',
   author: 'Tien Nguyen',
 
